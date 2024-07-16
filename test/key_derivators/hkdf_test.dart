@@ -2,7 +2,7 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
+import 'package:pointycastle_broadcom/export.dart';
 import 'package:test/test.dart';
 
 import '../test/runners/key_derivators.dart';

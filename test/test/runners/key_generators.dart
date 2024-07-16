@@ -1,7 +1,7 @@
 // See file LICENSE for more information.
 
 import 'package:test/test.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
 
 void runKeyGeneratorTests(
     KeyGenerator keyGenerator, List<AsymmetricKeyPair> expectedKeyPairs) {

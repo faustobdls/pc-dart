@@ -30,8 +30,8 @@ This is a function to generate an RSA key pair:
 ```dart
 import 'dart:math';
 import 'dart:typed_data';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
-import "package:pointycastle/export.dart";
+import 'package:pointycastle_broadcom/src/platform_check/platform_check.dart';
+import "package:pointycastle_broadcom/export.dart";
 
 AsymmetricKeyPair<RSAPublicKey, RSAPrivateKey> generateRSAkeyPair(
     SecureRandom secureRandom,
@@ -167,7 +167,7 @@ The following functions creates a signature and verifies a signature
 using SHA-256 as the digest algorithm:
 
 ```dart
-import "package:pointycastle/export.dart";
+import "package:pointycastle_broadcom/export.dart";
 
 Uint8List rsaSign(RSAPrivateKey privateKey, Uint8List dataToSign) {
   //final signer = Signer('SHA-256/RSA'); // Get using registry
@@ -353,7 +353,7 @@ To decrypt using RSA and an asymmetric block cipher:
 For example,
 
 ```dart
-import "package:pointycastle/export.dart";
+import "package:pointycastle_broadcom/export.dart";
 
 Uint8List rsaEncrypt(RSAPublicKey myPublic, Uint8List dataToEncrypt) {
   final encryptor = OAEPEncoding(RSAEngine())

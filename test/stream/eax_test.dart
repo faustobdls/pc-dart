@@ -2,11 +2,11 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/block/aes.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
-import 'package:pointycastle/src/utils.dart';
-import 'package:pointycastle/stream/eax.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/block/aes.dart';
+import 'package:pointycastle_broadcom/src/platform_check/platform_check.dart';
+import 'package:pointycastle_broadcom/src/utils.dart';
+import 'package:pointycastle_broadcom/stream/eax.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

@@ -1,7 +1,7 @@
 // See file LICENSE for more information.
 
 import 'package:test/test.dart';
-import 'package:pointycastle/adapters/stream_cipher_as_block_cipher.dart';
+import 'package:pointycastle_broadcom/adapters/stream_cipher_as_block_cipher.dart';
 
 import '../test/runners/block_cipher.dart';
 import '../test/src/helpers.dart';

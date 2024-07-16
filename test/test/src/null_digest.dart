@@ -2,9 +2,9 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_digest.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/impl/base_digest.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 /// An implementation of a null [Digest], that is, a digest that returns an empty string. It can be
 /// used for testing or benchmarking chaining algorithms.

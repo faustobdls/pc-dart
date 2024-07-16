@@ -28,7 +28,7 @@ This program calculates the SHA-265 digest of text strings:
 import 'dart:convert';
 import 'dart:typed_data';
 
-import "package:pointycastle/export.dart";
+import "package:pointycastle_broadcom/export.dart";
 
 Uint8List sha256Digest(Uint8List dataToDigest) {
   final d = SHA256Digest();

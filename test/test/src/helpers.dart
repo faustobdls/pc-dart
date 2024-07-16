@@ -2,8 +2,8 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/paddings/pkcs7.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/paddings/pkcs7.dart';
 import 'package:test/test.dart';
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -3,7 +3,7 @@
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/impl/base_digest.dart';
+import 'package:pointycastle_broadcom/src/impl/base_digest.dart';
 
 import '../ufixnum.dart';
 

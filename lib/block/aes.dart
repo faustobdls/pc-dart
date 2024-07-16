@@ -5,10 +5,10 @@ library impl.block_cipher.aes;
 import 'dart:core';
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_block_cipher.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/ufixnum.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/impl/base_block_cipher.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/src/ufixnum.dart';
 
 class AESEngine extends BaseBlockCipher {
   static final FactoryConfig factoryConfig =

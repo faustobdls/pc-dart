@@ -2,9 +2,9 @@ library impl.block_cipher.modes.ccm;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/ufixnum.dart';
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_broadcom/export.dart';
+import 'package:pointycastle_broadcom/src/ufixnum.dart';
+import 'package:pointycastle_broadcom/src/utils.dart';
 
 import '../../src/impl/base_aead_block_cipher.dart';
 import '../../src/registry/registry.dart';

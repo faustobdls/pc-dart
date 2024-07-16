@@ -2,7 +2,7 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_broadcom/api.dart';
 
 /// Base implementation of [Padding] which provides shared methods.
 abstract class BasePadding implements Padding {

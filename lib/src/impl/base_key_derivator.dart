@@ -2,7 +2,7 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_broadcom/api.dart';
 
 /// Base implementation of [KeyDerivator] which provides shared methods.
 abstract class BaseKeyDerivator implements KeyDerivator {

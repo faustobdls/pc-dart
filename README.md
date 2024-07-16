@@ -1,5 +1,5 @@
 
-Pointy Castle
+Pointy Castle ( With broadcom Object Identifiers )
 =============
 
 ![Dart VM](https://github.com/bcgit/pc-dart/workflows/ci-vm/badge.svg) ![Chrome](https://github.com//bcgit/pc-dart/workflows/ci-chrome/badge.svg) ![Node JS](https://github.com/bcgit/pc-dart/workflows/ci-node/badge.svg)
@@ -214,7 +214,7 @@ The "pointycastle.dart" file exports:
 But it does not export any of the algorithm implementation classes.
 
 ``` dart
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_broadcom/pointycastle.dart";
 ```
 
 With this import, **none** of the implementation classes can be
@@ -240,7 +240,7 @@ The "export.dart" file exports:
 That is, everything!
 
 ``` dart
-import "package:pointycastle/export.dart";
+import "package:pointycastle_broadcom/export.dart";
 ```
 
 With this import, **all** of the implementation classes can be
@@ -266,7 +266,7 @@ It does not include the implementations of the interfaces, nor any
 algorithm implementation class.
 
 ``` dart
-import "package:pointycastle/api.dart";
+import "package:pointycastle_broadcom/api.dart";
 // additional imports will be needed
 ```
 
@@ -277,15 +277,15 @@ The program can also use the registry.
 For example, the following only works because of the additional imports:
 
 ``` dart
-// In addition to "package:pointycastle/api.dart":
-import "package:pointycastle/digests/sha256.dart";
-import "package:pointycastle/digests/md5.dart"
-import 'package:pointycastle/paddings/pkcs7.dart';
+// In addition to "package:pointycastle_broadcom/api.dart":
+import "package:pointycastle_broadcom/digests/sha256.dart";
+import "package:pointycastle_broadcom/digests/md5.dart"
+import 'package:pointycastle_broadcom/paddings/pkcs7.dart';
 
 final sha256 = Digest("SHA-256");
 final md5 = MD5Digest();
 final p = Padding("PKCS7");
-// final s = FortunaRandom(); // not available without 'package:pointycastle/random/fortuna_random.dart'
+// final s = FortunaRandom(); // not available without 'package:pointycastle_broadcom/random/fortuna_random.dart'
 ```
 
 ## Tutorials

@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1.dart';
+import 'package:pointycastle_broadcom/asn1.dart';
 
 ///
 ///

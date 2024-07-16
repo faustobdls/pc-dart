@@ -1,6 +1,6 @@
 // See file LICENSE for more information.
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
 import 'package:test/test.dart';
 
 import '../test/runners/asymmetric_block_cipher.dart';

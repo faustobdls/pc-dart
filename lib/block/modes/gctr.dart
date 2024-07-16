@@ -4,10 +4,10 @@ library impl.block_cipher.modes.gctr;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_block_cipher.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/ufixnum.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/impl/base_block_cipher.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/src/ufixnum.dart';
 
 /// Implementation of GOST 28147 OFB counter mode (GCTR) on top of a [BlockCipher].
 class GCTRBlockCipher extends BaseBlockCipher {

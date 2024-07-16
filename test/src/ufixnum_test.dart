@@ -2,7 +2,7 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/ufixnum.dart';
+import 'package:pointycastle_broadcom/src/ufixnum.dart';
 import 'package:test/test.dart';
 
 void main() {

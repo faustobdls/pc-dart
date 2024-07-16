@@ -2,9 +2,9 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_stream_cipher.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/impl/base_stream_cipher.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 /// An implementation of a null [StreamCipher], that is, a cipher that does not encrypt, neither decrypt. It can be used for
 /// testing or benchmarking chaining algorithms.

@@ -1,7 +1,7 @@
 // See file LICENSE for more information.
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_broadcom/export.dart';
+import 'package:pointycastle_broadcom/src/utils.dart';
 import 'package:test/test.dart';
 
 import '../test/src/fixed_secure_random.dart';

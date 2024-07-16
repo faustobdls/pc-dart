@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/key_derivators/pkcs12_parameter_generator.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_broadcom/key_derivators/pkcs12_parameter_generator.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

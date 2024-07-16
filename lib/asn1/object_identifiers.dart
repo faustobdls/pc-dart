@@ -1,4 +1,4 @@
-import 'package:pointycastle/asn1/object_identifiers_database.dart';
+import 'package:pointycastle_broadcom/asn1/object_identifiers_database.dart';
 
 ///
 /// Class holding a list of object identifiers

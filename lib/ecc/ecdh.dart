@@ -1,6 +1,6 @@
-import 'package:pointycastle/ecc/api.dart';
-import 'package:pointycastle/ecc/ecc_base.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_broadcom/ecc/api.dart';
+import 'package:pointycastle_broadcom/ecc/ecc_base.dart';
+import 'package:pointycastle_broadcom/src/platform_check/platform_check.dart';
 
 /// P1363 7.2.1 ECSVDP-DH
 ///

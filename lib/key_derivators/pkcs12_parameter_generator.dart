@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 class PKCS12ParametersGenerator implements PBEParametersGenerator {
   static final FactoryConfig factoryConfig = DynamicFactoryConfig.suffix(

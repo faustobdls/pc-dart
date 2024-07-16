@@ -4,10 +4,10 @@ library impl.secure_random.block_ctr_random;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/ufixnum.dart';
-import 'package:pointycastle/src/impl/secure_random_base.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/src/ufixnum.dart';
+import 'package:pointycastle_broadcom/src/impl/secure_random_base.dart';
 
 /// An implementation of [SecureRandom] that uses a [BlockCipher] with CTR mode to generate random
 /// values.

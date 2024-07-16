@@ -6,9 +6,9 @@ import 'dart:math';
 import 'dart:typed_data';
 
 import 'package:collection/collection.dart' show IterableExtension;
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/impl/base_key_derivator.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/export.dart';
+import 'package:pointycastle_broadcom/src/impl/base_key_derivator.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 /// HMAC-based Extract-and-Expand Key Derivation Function (HKDF) implemented
 /// according to IETF RFC 5869.

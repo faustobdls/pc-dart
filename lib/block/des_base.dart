@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/ufixnum.dart';
+import 'package:pointycastle_broadcom/src/ufixnum.dart';
 
 class DesBase {
   static final BLOCK_SIZE = 8;

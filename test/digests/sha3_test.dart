@@ -2,7 +2,7 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/digests/sha3.dart';
+import 'package:pointycastle_broadcom/digests/sha3.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

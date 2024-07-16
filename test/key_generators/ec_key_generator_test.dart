@@ -1,6 +1,6 @@
 // See file LICENSE for more information.
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
 import '../test/runners/key_generators.dart';
 import '../test/src/null_secure_random.dart';
 

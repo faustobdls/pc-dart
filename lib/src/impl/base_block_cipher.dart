@@ -2,7 +2,7 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_broadcom/api.dart';
 
 /// Base implementation of [BlockCipher] which provides shared methods.
 abstract class BaseBlockCipher implements BlockCipher {

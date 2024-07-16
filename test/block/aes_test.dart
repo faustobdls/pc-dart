@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/block/aes.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_broadcom/block/aes.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

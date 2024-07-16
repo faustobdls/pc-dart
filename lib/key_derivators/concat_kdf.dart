@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/key_derivators/api.dart';
-import 'package:pointycastle/src/impl/base_key_derivator.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/key_derivators/api.dart';
+import 'package:pointycastle_broadcom/src/impl/base_key_derivator.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 class ConcatKDFDerivator extends BaseKeyDerivator {
   /// Intended for internal use.

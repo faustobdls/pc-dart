@@ -2,8 +2,8 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/ufixnum.dart';
-import 'package:pointycastle/src/impl/base_digest.dart';
+import 'package:pointycastle_broadcom/src/ufixnum.dart';
+import 'package:pointycastle_broadcom/src/impl/base_digest.dart';
 
 /// Base implementation of MD4 family style digest
 abstract class MD4FamilyDigest extends BaseDigest {

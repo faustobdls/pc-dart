@@ -1,10 +1,10 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1/primitives/asn1_ia5_string.dart';
-import 'package:pointycastle/asn1/primitives/asn1_integer.dart';
-import 'package:pointycastle/asn1/primitives/asn1_null.dart';
-import 'package:pointycastle/asn1/primitives/asn1_object_identifier.dart';
-import 'package:pointycastle/asn1/primitives/asn1_sequence.dart';
+import 'package:pointycastle_broadcom/asn1/primitives/asn1_ia5_string.dart';
+import 'package:pointycastle_broadcom/asn1/primitives/asn1_integer.dart';
+import 'package:pointycastle_broadcom/asn1/primitives/asn1_null.dart';
+import 'package:pointycastle_broadcom/asn1/primitives/asn1_object_identifier.dart';
+import 'package:pointycastle_broadcom/asn1/primitives/asn1_sequence.dart';
 import 'package:test/test.dart';
 
 void main() {

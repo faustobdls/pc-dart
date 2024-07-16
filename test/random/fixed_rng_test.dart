@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_broadcom/api.dart';
 import 'package:test/test.dart';
 
 import '../test/src/fixed_secure_random.dart';

@@ -4,10 +4,10 @@ library impl.digest.sha512t;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/long_sha2_family_digest.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/ufixnum.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/impl/long_sha2_family_digest.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/src/ufixnum.dart';
 
 /// Implementation of SHA-512/t digest (see FIPS 180-4).
 class SHA512tDigest extends LongSHA2FamilyDigest implements Digest {

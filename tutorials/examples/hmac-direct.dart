@@ -12,7 +12,7 @@ library;
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
+import 'package:pointycastle_broadcom/export.dart';
 
 // BEGIN EXAMPLE in "../hmac.md"
 

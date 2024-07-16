@@ -2,9 +2,9 @@ library impl.stream_cipher.rc4_engine;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_stream_cipher.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/impl/base_stream_cipher.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 class RC4Engine extends BaseStreamCipher {
   static final FactoryConfig factoryConfig =

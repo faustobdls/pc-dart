@@ -2,8 +2,8 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_broadcom/export.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
 
 import '../test/runners/mac.dart';
 import '../test/src/helpers.dart';

@@ -5,7 +5,7 @@
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/ct.dart';
+import 'package:pointycastle_broadcom/src/ct.dart';
 import 'package:test/test.dart';
 
 import '../digests/cshake_test.dart';

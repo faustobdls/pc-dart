@@ -7,7 +7,7 @@ library impl;
 // cipher implementations
 
 // asymmetric
-export 'package:pointycastle/asymmetric/api.dart';
-export 'package:pointycastle/ecc/api.dart';
-export 'package:pointycastle/key_derivators/api.dart';
-export 'package:pointycastle/key_generators/api.dart';
+export 'package:pointycastle_broadcom/asymmetric/api.dart';
+export 'package:pointycastle_broadcom/ecc/api.dart';
+export 'package:pointycastle_broadcom/key_derivators/api.dart';
+export 'package:pointycastle_broadcom/key_generators/api.dart';

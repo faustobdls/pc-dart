@@ -2,7 +2,7 @@
 
 import 'dart:typed_data' show Uint8List;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
 
 import '../test/runners/padding.dart';
 import '../test/src/helpers.dart';

@@ -5,8 +5,8 @@ library impl.ecc.ecc_base;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/ecc/api.dart';
-import 'package:pointycastle/src/utils.dart' as utils;
+import 'package:pointycastle_broadcom/ecc/api.dart';
+import 'package:pointycastle_broadcom/src/utils.dart' as utils;
 
 /// Implementation of [ECDomainParameters]
 class ECDomainParametersImpl implements ECDomainParameters {

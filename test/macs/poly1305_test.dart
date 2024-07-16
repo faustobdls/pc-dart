@@ -3,7 +3,7 @@
 
 library test.macs.poly1305_test;
 
-import 'package:pointycastle/export.dart';
+import 'package:pointycastle_broadcom/export.dart';
 import 'package:test/test.dart';
 
 import '../test/runners/mac.dart';

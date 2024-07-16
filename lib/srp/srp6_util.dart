@@ -3,7 +3,7 @@ library src.srp_util;
 import 'dart:math' as math;
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
 
 class SRP6Util {
   static final _byteMask = BigInt.from(0xff);

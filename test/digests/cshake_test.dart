@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/digests/cshake.dart';
-import 'package:pointycastle/digests/shake.dart';
+import 'package:pointycastle_broadcom/digests/cshake.dart';
+import 'package:pointycastle_broadcom/digests/shake.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

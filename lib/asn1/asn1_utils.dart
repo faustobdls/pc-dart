@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1.dart';
-import 'package:pointycastle/asn1/object_identifiers.dart';
-import 'package:pointycastle/ecc/api.dart';
+import 'package:pointycastle_broadcom/asn1.dart';
+import 'package:pointycastle_broadcom/asn1/object_identifiers.dart';
+import 'package:pointycastle_broadcom/ecc/api.dart';
 
 ///
 /// Utils class holding different methods to ease the handling of ANS1Objects and their byte representation.

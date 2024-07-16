@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1/primitives/asn1_bmp_string.dart';
+import 'package:pointycastle_broadcom/asn1/primitives/asn1_bmp_string.dart';
 import 'package:test/test.dart';
 
 void main() {

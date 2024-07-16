@@ -18,3 +18,5 @@ doc/
 .settings/
 .dart_tool/
 
+build
+coverage

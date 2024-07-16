@@ -4,7 +4,7 @@ library api.asymmetric;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_broadcom/api.dart';
 
 /// Base class for asymmetric keys in RSA
 abstract class RSAAsymmetricKey implements AsymmetricKey {

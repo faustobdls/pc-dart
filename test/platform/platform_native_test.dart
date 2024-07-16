@@ -1,5 +1,5 @@
 @TestOn('vm')
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_broadcom/src/platform_check/platform_check.dart';
 import 'package:test/test.dart';
 
 void main() {

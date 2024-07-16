@@ -6,12 +6,12 @@ import 'dart:core';
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/macs/cmac.dart';
-import 'package:pointycastle/src/impl/base_aead_cipher.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/utils.dart';
-import 'package:pointycastle/stream/ctr.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/macs/cmac.dart';
+import 'package:pointycastle_broadcom/src/impl/base_aead_cipher.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/src/utils.dart';
+import 'package:pointycastle_broadcom/stream/ctr.dart';
 
 /// EAX mode based on CTR and CMAC/OMAC1.
 ///

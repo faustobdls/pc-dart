@@ -40,7 +40,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
 
-import "package:pointycastle/export.dart";
+import "package:pointycastle_broadcom/export.dart";
 
 Uint8List aesCbcEncrypt(
     Uint8List key, Uint8List iv, Uint8List paddedPlaintext) {

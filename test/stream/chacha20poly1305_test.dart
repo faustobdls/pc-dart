@@ -3,11 +3,11 @@ library test.stream.chacha20poly1305_test;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/macs/poly1305.dart';
-import 'package:pointycastle/pointycastle.dart';
-import 'package:pointycastle/src/utils.dart';
-import 'package:pointycastle/stream/chacha20poly1305.dart';
-import 'package:pointycastle/stream/chacha7539.dart';
+import 'package:pointycastle_broadcom/macs/poly1305.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
+import 'package:pointycastle_broadcom/src/utils.dart';
+import 'package:pointycastle_broadcom/stream/chacha20poly1305.dart';
+import 'package:pointycastle_broadcom/stream/chacha7539.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

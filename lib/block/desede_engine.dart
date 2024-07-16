@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/block/des_base.dart';
-import 'package:pointycastle/src/impl/base_block_cipher.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/block/des_base.dart';
+import 'package:pointycastle_broadcom/src/impl/base_block_cipher.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 class DESedeEngine extends DesBase implements BaseBlockCipher {
   static final FactoryConfig factoryConfig =

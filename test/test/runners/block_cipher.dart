@@ -3,7 +3,7 @@
 import 'dart:typed_data';
 
 import 'package:test/test.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
 
 import '../src/helpers.dart';
 

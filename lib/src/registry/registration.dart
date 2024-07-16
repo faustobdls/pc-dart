@@ -1,7 +1,7 @@
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/key_derivators/concat_kdf.dart';
-import 'package:pointycastle/key_derivators/ecdh_kdf.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/export.dart';
+import 'package:pointycastle_broadcom/key_derivators/concat_kdf.dart';
+import 'package:pointycastle_broadcom/key_derivators/ecdh_kdf.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 void registerFactories(FactoryRegistry registry) {
   _registerAsymmetricCiphers(registry);

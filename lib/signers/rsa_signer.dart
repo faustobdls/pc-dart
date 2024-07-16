@@ -4,11 +4,11 @@ library impl.signer.rsa_signer;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/asymmetric/api.dart';
-import 'package:pointycastle/asymmetric/pkcs1.dart';
-import 'package:pointycastle/asymmetric/rsa.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/asymmetric/api.dart';
+import 'package:pointycastle_broadcom/asymmetric/pkcs1.dart';
+import 'package:pointycastle_broadcom/asymmetric/rsa.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 // TODO: implement full ASN1 encoding (for now I will do a little ad-hoc implementation of just what is needed here)
 class RSASigner implements Signer {

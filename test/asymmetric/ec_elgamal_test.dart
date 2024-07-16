@@ -1,9 +1,9 @@
 // See file LICENSE for more information.
 
-import 'package:pointycastle/asymmetric/ec_elgamal.dart';
-import 'package:pointycastle/ecc/ecc_fp.dart' as fp;
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_broadcom/asymmetric/ec_elgamal.dart';
+import 'package:pointycastle_broadcom/ecc/ecc_fp.dart' as fp;
+import 'package:pointycastle_broadcom/export.dart';
+import 'package:pointycastle_broadcom/src/platform_check/platform_check.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

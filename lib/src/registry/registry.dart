@@ -1,7 +1,7 @@
 // See file LICENSE for more information.
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/registry/registration.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/registry/registration.dart';
 
 final FactoryRegistry registry = _RegistryImpl();
 

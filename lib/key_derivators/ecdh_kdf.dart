@@ -1,9 +1,9 @@
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/impl/base_key_derivator.dart';
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_broadcom/export.dart';
+import 'package:pointycastle_broadcom/src/impl/base_key_derivator.dart';
+import 'package:pointycastle_broadcom/src/utils.dart';
 
 import '../src/registry/registry.dart';
 

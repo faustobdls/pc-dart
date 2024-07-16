@@ -1,5 +1,5 @@
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/block/desede_engine.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/block/desede_engine.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

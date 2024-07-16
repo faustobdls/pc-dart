@@ -2,8 +2,8 @@
 
 library impl.asymmetric.ecc.elgamal;
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_broadcom/export.dart';
+import 'package:pointycastle_broadcom/src/platform_check/platform_check.dart';
 
 BigInt _generateK(BigInt n, SecureRandom random) {
   var nBitLength = n.bitLength;

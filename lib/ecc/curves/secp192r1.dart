@@ -2,10 +2,10 @@
 
 library impl.ec_domain_parameters.secp192r1;
 
-import 'package:pointycastle/ecc/api.dart';
-import 'package:pointycastle/ecc/ecc_base.dart';
-import 'package:pointycastle/src/ec_standard_curve_constructor.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/ecc/api.dart';
+import 'package:pointycastle_broadcom/ecc/ecc_base.dart';
+import 'package:pointycastle_broadcom/src/ec_standard_curve_constructor.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 // ignore: camel_case_types
 class ECCurve_secp192r1 extends ECDomainParametersImpl {

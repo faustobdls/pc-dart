@@ -4,9 +4,9 @@ library impl.digest.md2;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_digest.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/impl/base_digest.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 /// Implementation of MD2 as outlined in RFC1319 by B.Kaliski from RSA Laboratories April 1992
 class MD2Digest extends BaseDigest {

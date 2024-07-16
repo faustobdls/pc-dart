@@ -1,4 +1,4 @@
-import 'package:pointycastle/src/impl/entropy.dart';
+import 'package:pointycastle_broadcom/src/impl/entropy.dart';
 
 import 'abstract.dart'
     if (dart.library.io) 'native.dart'

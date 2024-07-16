@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
+import 'package:pointycastle_broadcom/src/utils.dart';
 import 'package:test/test.dart';
 
 class ECDHTestvector {

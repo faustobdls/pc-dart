@@ -3,7 +3,7 @@ library impl.block_cipher.modes.gcm;
 import 'dart:math' show min;
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/ct.dart';
+import 'package:pointycastle_broadcom/src/ct.dart';
 
 import '../../api.dart';
 import '../../src/impl/base_aead_block_cipher.dart';

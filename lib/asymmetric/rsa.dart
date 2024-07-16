@@ -4,11 +4,11 @@ library impl.asymmetric_block_cipher.rsa;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/asymmetric/api.dart';
-import 'package:pointycastle/src/impl/base_asymmetric_block_cipher.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/utils.dart' as utils;
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/asymmetric/api.dart';
+import 'package:pointycastle_broadcom/src/impl/base_asymmetric_block_cipher.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/src/utils.dart' as utils;
 
 class RSAEngine extends BaseAsymmetricBlockCipher {
   static final FactoryConfig factoryConfig =

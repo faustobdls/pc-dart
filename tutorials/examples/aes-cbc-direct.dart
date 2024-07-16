@@ -6,8 +6,8 @@ library;
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_broadcom/export.dart';
+import 'package:pointycastle_broadcom/src/platform_check/platform_check.dart';
 
 // Code convention: variable names starting with underscores are examples only,
 // and should be implemented according to the needs of the program.

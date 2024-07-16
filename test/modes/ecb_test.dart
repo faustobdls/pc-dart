@@ -2,8 +2,8 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/pointycastle_broadcom.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 import '../test/runners/block_cipher.dart';
 import '../test/src/null_block_cipher.dart';

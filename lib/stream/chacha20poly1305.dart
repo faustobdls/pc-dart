@@ -3,7 +3,7 @@ library impl.stream_cipher.chacha20poly1305;
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 import '../export.dart';
 import '../src/impl/base_aead_cipher.dart';
 import '../src/ufixnum.dart';

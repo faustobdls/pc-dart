@@ -3,7 +3,7 @@ import 'dart:js_interop';
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/impl/entropy.dart';
+import 'package:pointycastle_broadcom/src/impl/entropy.dart';
 
 import 'node_crypto.dart';
 import 'platform_check.dart';
