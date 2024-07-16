@@ -91,7 +91,7 @@ class ECDSASigner implements Signer {
 
     dynamic kCalculator;
     if (_kMac != null) {
-      kCalculator = _RFC6979KCalculator(_kMac!, n, _pvkey!.d!, message);
+      kCalculator = _RFC6979KCalculator(_kMac, n, _pvkey!.d!, message);
     } else {
       kCalculator = _RandomKCalculator(n, _random!);
     }
@@ -163,8 +163,8 @@ class ECDSASigner implements Signer {
 
   Uint8List _hashMessageIfNeeded(Uint8List message) {
     if (_digest != null) {
-      _digest!.reset();
-      return _digest!.process(message);
+      _digest.reset();
+      return _digest.process(message);
     } else {
       return message;
     }
@@ -293,7 +293,7 @@ class _RFC6979KCalculator {
     var x = Uint8List((_n.bitLength + 7) ~/ 8);
     var dVal = _asUnsignedByteArray(d);
 
-    x.setRange((x.length - dVal.length), x.length, dVal);
+    x.setRange(x.length - dVal.length, x.length, dVal);
 
     var m = Uint8List((_n.bitLength + 7) ~/ 8);
 
@@ -305,7 +305,7 @@ class _RFC6979KCalculator {
 
     var mVal = _asUnsignedByteArray(mInt);
 
-    m.setRange((m.length - mVal.length), m.length, mVal);
+    m.setRange(m.length - mVal.length, m.length, mVal);
 
     _mac.init(KeyParameter(_K));
 
@@ -342,7 +342,7 @@ class _RFC6979KCalculator {
 
         if ((t.length - tOff) < _V.length) {
           t.setRange(tOff, t.length, _V);
-          tOff += (t.length - tOff);
+          tOff += t.length - tOff;
         } else {
           t.setRange(tOff, tOff + _V.length, _V);
           tOff += _V.length;
