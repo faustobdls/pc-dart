@@ -1,9 +1,12 @@
 name: pointycastle_broadcom
-version: 3.9.2
+version: 4.0.0
 description: A Dart library implementing cryptographic algorithms and primitives, modeled on the BouncyCastle library.
 homepage: https://github.com/bcgit/pc-dart
 topics:
- - crypto
+  - crypto
+  - rsa
+  - ecc
+  - asn1
 
 environment:
   sdk: ^3.2.0
@@ -11,7 +14,6 @@ environment:
 dependencies:
   collection: ^1.15.0
   convert: ^3.0.0
-  js: '>=0.6.3 <0.8.0'
 
 dev_dependencies:
   benchmark_harness: ^2.0.0

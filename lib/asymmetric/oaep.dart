@@ -7,6 +7,7 @@ import 'dart:typed_data';
 import 'package:pointycastle_broadcom/api.dart';
 import 'package:pointycastle_broadcom/digests/sha1.dart';
 import 'package:pointycastle_broadcom/digests/sha256.dart';
+import 'package:pointycastle_broadcom/digests/sha512.dart';
 import 'package:pointycastle_broadcom/random/fortuna_random.dart';
 import 'package:pointycastle_broadcom/src/impl/base_asymmetric_block_cipher.dart';
 import 'package:pointycastle_broadcom/src/platform_check/platform_check.dart';
@@ -80,6 +81,10 @@ class OAEPEncoding extends BaseAsymmetricBlockCipher {
   factory OAEPEncoding.withSHA256(AsymmetricBlockCipher engine,
           [Uint8List? encodingParams]) =>
       OAEPEncoding._(() => SHA256Digest(), engine, encodingParams);
+
+  factory OAEPEncoding.withSHA512(AsymmetricBlockCipher engine,
+          [Uint8List? encodingParams]) =>
+      OAEPEncoding._(() => SHA512Digest(), engine, encodingParams);
 
   factory OAEPEncoding.withCustomDigest(
           DigestFactory digestFactory, AsymmetricBlockCipher engine,
