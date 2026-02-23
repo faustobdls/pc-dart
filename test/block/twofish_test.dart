@@ -1,6 +1,6 @@
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/block/modes/cbc.dart';
-import 'package:pointycastle/block/twofish.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/block/modes/cbc.dart';
+import 'package:pointycastle_broadcom/block/twofish.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

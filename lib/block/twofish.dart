@@ -5,9 +5,9 @@ library impl.block_cipher.twofish;
 import 'dart:core';
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_block_cipher.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/src/impl/base_block_cipher.dart';
+import 'package:pointycastle_broadcom/src/registry/registry.dart';
 
 /// A class that provides Twofish encryption operations.
 /// Author Nguyen Van Nguyen <nguyennv1981@gmail.com>

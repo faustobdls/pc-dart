@@ -1,5 +1,5 @@
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/block/blowfish.dart';
+import 'package:pointycastle_broadcom/api.dart';
+import 'package:pointycastle_broadcom/block/blowfish.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';
